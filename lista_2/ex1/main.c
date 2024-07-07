@@ -17,9 +17,9 @@ struct keyboardInfo kbInfo;
 void writeInfosToScreen(){
 
 	writeText(GLUT_BITMAP_HELVETICA_18, screenResolution, 20, 80, 0);
-	writeText(GLUT_BITMAP_HELVETICA_18, mousePos, 20, 60, 0);
-	writeText(GLUT_BITMAP_HELVETICA_18, kbInfo.keyState, 30, 40, 0);
-	writeText(GLUT_BITMAP_HELVETICA_18, kbInfo.mousePosWhenPressed, 30, 20, 0);
+	writeText(GLUT_BITMAP_TIMES_ROMAN_10, mousePos, 20, 60, 0);
+	writeText(GLUT_BITMAP_TIMES_ROMAN_24, kbInfo.keyState, 30, 40, 0);
+	writeText(GLUT_BITMAP_8_BY_13, kbInfo.mousePosWhenPressed, 30, 20, 0);
 	
 	printf("%s\n", screenResolution); 
 	printf("%s\n", mousePos); 

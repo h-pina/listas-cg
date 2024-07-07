@@ -13,7 +13,7 @@ namespace CG {
 		glViewport(0, 0, width, height);
     glMatrixMode(GL_PROJECTION);
     glLoadIdentity();
-    glOrtho(-1, 1, -1, 1, -1, 1);
+    glOrtho(-200, 200, -200, 200, -1, 1);
 
     float windowAspectRatio = ((float)width)/height;
     float worldAspectRatio = 1.0f;
