@@ -1,4 +1,4 @@
 make;
 ./main
-rm main *.o
+#rm main *.o
 
